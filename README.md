@@ -3,28 +3,14 @@ I take random notes and migrate them to my Github repo for backup.
 
 ---
 
-> last edited : 2023.05.22 
+> author : Juwon1405
 >
-> Writer : Juwon1405
-
-<br><br><br><br><br><br>
-
-
----
-### FREE ChatGPT Cheat Sheet
-> Unlock all the power of ChatGPT with this cheat sheet. You will find more than 100 examples on writing, productivity, creativity, programming, data science and more.
+> created: 2023-05-22T05:27:25 (UTC +09:00)
 >
->> - [ChatGPT Cheat Sheet.pdf](https://attachments.convertkitcdnn2.com/682688/b0c434c6-e836-49cf-864c-4c8c67d97625/ChatGPT%20Cheat%20Sheet.pdf)
+> last updated : 2023-05-22 
 
 ---
-<br>
 
----
-created: 2023-05-22T05:27:25 (UTC +09:00)
-tags: []
-source: https://gist.github.com/Juwon1405
-author: 
----
 
 
 
