@@ -1,4 +1,6 @@
-> ###### Assembly Language / Reversing / Malware Analysis / Game Hacking -resources
+> Source: https://gist.github.com/muff-in/ff678b1fda17e6188aa0462a99626121
+
+###### Assembly Language / Reversing / Malware Analysis / Game Hacking -resources
 
 # ⭐Assembly Language 
 

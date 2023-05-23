@@ -1,4 +1,7 @@
-> ###### Dumping all bytecode from a packaged Python application
+> Source: https://gist.github.com/stecman/3751ac494795164efa82a683130cabe5
+
+
+# Dumping all bytecode from a packaged Python application
 
 This is a technique for extracting all imported modules from a packaged Python application as `.pyc` files, then decompiling them. The target program needs to be run from scratch, but no debugging symbols are necessary (assuming an unmodified build of Python is being used).
 

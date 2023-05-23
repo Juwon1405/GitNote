@@ -1,0 +1,3 @@
+## Repositories
+
+> This directory is dedicated to a variety of repositories that have been collected or forked for learning purposes. These repositories offer a wealth of information and examples in the field of information security and computer science. Each repository maintains the link to its original source at the top. Explore them to understand different coding approaches and improve your own programming practices.
