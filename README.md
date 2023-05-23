@@ -25,3 +25,7 @@ Welcome to the GitNote repository, a curated collection of materials in the fiel
 > This directory is dedicated to a variety of repositories that have been collected or forked for learning purposes. These repositories offer a wealth of information and examples in the field of information security and computer science. Each repository maintains the link to its original source at the top. Explore them to understand different coding approaches and improve your own programming practices.
 
 <br>
+
+### [GitNote-Private](https://github.com/Juwon1405/GitNote-Private)
+
+> The GitNote-Private repository is a curated collection of my personal projects that are kept private for various reasons.
