@@ -1,4 +1,4 @@
-> author: Juwon1405
+# author: Juwon1405
 
 # A simple program to save real-time web monitoring as a GIF
 
