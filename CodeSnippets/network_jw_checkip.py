@@ -1,4 +1,4 @@
-# Source: author(juwon1405.jp@gmail.com)
+# author: Juwon1405
 
 #!/usr/bin/env python3
 # Python script to query reputation information for an IP address (basic information, SANS ICS, public cloud, CDN)
