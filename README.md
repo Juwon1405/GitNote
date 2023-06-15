@@ -26,6 +26,6 @@ Welcome to the GitNote repository, a curated collection of materials in the fiel
 
 <br>
 
-### [GitNote-Private](https://github.com/Juwon1405/GitNote-Private)
+###  [GitNote-Private](https://github.com/Juwon1405/GitNote-Private) 
 
 > The GitNote-Private repository is a curated collection of my personal projects that are kept private for various reasons.
