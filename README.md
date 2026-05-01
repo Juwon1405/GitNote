@@ -71,28 +71,46 @@ GitNote/
 
 ---
 
-## ⚡ Where to start (3 entry points)
+## ⚡ Where to start (5 entry points)
+
+### 🚨 In an active incident — go here first
+
+| Situation | Read |
+|---|---|
+| Just got handed a Windows EVTX dump | [`[Cheatsheet] evtx-threat-hunting-2026.md`](Resources/%5BCheatsheet%5D%20evtx-threat-hunting-2026.md) — 12 EIDs that catch 80% of intrusions |
+| Suspect ransomware, what group? | [`[Playbook] ransomware-2026-actor-handbook.md`](Resources/%5BPlaybook%5D%20ransomware-2026-actor-handbook.md) — 9 active 2025-2026 RaaS profiles |
+| Live macOS host triage | [`[Cheatsheet] macos-unified-log-triage.md`](Resources/%5BCheatsheet%5D%20macos-unified-log-triage.md) + [`launchd_persistence_audit.sh`](CodeSnippets/launchd_persistence_audit.sh) |
+| Live Linux host triage | [`[Cheatsheet] linux-dfir-triage-2026.md`](Resources/%5BCheatsheet%5D%20linux-dfir-triage-2026.md) + [`auditd_lateral_movement.sh`](CodeSnippets/auditd_lateral_movement.sh) |
+| Memory dump just acquired | [`[Cheatsheet] memory-forensics-vol3.md`](Resources/%5BCheatsheet%5D%20memory-forensics-vol3.md) — Vol3 v2.27 top 12 plugins |
+| Suspect AD identity attack | [`[Playbook] identity-attacks-detection.md`](Resources/%5BPlaybook%5D%20identity-attacks-detection.md) — Kerberoasting / Golden Ticket / DCSync etc. |
+| Cloud incident (AWS / Entra ID) | [`[Cheatsheet] cloud-dfir-aws-entra.md`](Resources/%5BCheatsheet%5D%20cloud-dfir-aws-entra.md) — top 10 events + queries |
+| MFT export, hunt timestomp | [`mft_timestomp_detector.py`](CodeSnippets/mft_timestomp_detector.py) |
 
 ### 🥇 If you're a **DFIR practitioner** building an IR program
 
-1. **[NIST SP 800-61 r2 — Computer Security Incident Handling Guide](Repositories/Cyber-Incident-Investigation-Framework/NIST/)** — start here. Foundational.
-2. **[NIST SP 800-86 — Guide to Integrating Forensic Techniques into Incident Response](Repositories/Cyber-Incident-Investigation-Framework/NIST/)**
-3. **[SANS — Incident Handler's Handbook](Repositories/Cyber-Incident-Investigation-Framework/SANS/)**
-4. **[ENISA — Good Practice Guide for Incident Management](Repositories/Cyber-Incident-Investigation-Framework/ENISA/)**
+1. **[`[Resources] dfir-2026-essential-reading.md`](Resources/%5BResources%5D%20dfir-2026-essential-reading.md)** ⭐ — 2026 reading list (M-Trends, DBIR, DFIR Report, books, training)
+2. **[NIST SP 800-61 r2](Repositories/Cyber-Incident-Investigation-Framework/NIST/)** — foundational
+3. **[NIST SP 800-86](Repositories/Cyber-Incident-Investigation-Framework/NIST/)** — forensic integration
+4. **[SANS — Incident Handler's Handbook](Repositories/Cyber-Incident-Investigation-Framework/SANS/)**
 
 ### 🥈 If you're a **Blue Team analyst** building detection coverage
 
-1. **[`[Guide] blue-team-notes.md`](Resources/)** — practical detection pivots
-2. **[`[Guide] blue-team-notes_examples-of-lateral-movement.md`](Resources/)** — lateral movement signatures
+1. **[`[Cheatsheet] evtx-threat-hunting-2026.md`](Resources/%5BCheatsheet%5D%20evtx-threat-hunting-2026.md)** — Sigma rules + Hayabusa one-liners
+2. **[`[Playbook] identity-attacks-detection.md`](Resources/%5BPlaybook%5D%20identity-attacks-detection.md)** — AD + Entra ID detection signatures
 3. **[`awesome-stars.md` → Blue Team section](Resources/awesome-stars.md)** — 17 SOC/detection-engineering tools
-4. **[Mindmap: Windows Privileges](Resources/)** — visual reference for Windows privilege escalation surface
 
 ### 🥉 If you're a **Mac/iOS forensic analyst**
 
-1. **[`awesome-stars.md` → macOS section](Resources/awesome-stars.md)** — curated macOS DFIR tools
-2. Companion repos by the same author:
-   - **[yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform)** — Flask-based macOS DFIR web platform
+1. **[`[Cheatsheet] macos-unified-log-triage.md`](Resources/%5BCheatsheet%5D%20macos-unified-log-triage.md)** — 12 working `log show` predicates
+2. **[`launchd_persistence_audit.sh`](CodeSnippets/launchd_persistence_audit.sh)** — comprehensive launchd persistence inventory
+3. Companion repos by the same author:
+   - **[yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform)** — Flask-based macOS DFIR platform
    - **[yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector)** — single-file macOS artifact collector
+
+### ☁️ If you're a **Cloud DFIR analyst**
+
+1. **[`[Cheatsheet] cloud-dfir-aws-entra.md`](Resources/%5BCheatsheet%5D%20cloud-dfir-aws-entra.md)** — AWS CloudTrail + Entra ID signatures
+2. **[`[Playbook] identity-attacks-detection.md`](Resources/%5BPlaybook%5D%20identity-attacks-detection.md)** — modern Entra ID attacks (device code, PRT theft, MFA fatigue)
 
 ---
 
