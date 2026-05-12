@@ -1,7 +1,4 @@
 # 2026-05-12 GitHub 전체 점검 & 일괄 정리 작업
-
-> **작성:** 2026-05-12 (구실장 처리)
-> **트리거:** GitHub Inbox 워크플로우 실패 알림 폭탄 (puppeteer / developer-roadmap / awesome-chatgpt-prompts 등)
 > **결과:** 알림 노이즈 100% 차단 완료 (52/52 Actions OFF)
 
 ---
