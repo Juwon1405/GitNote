@@ -2,8 +2,6 @@
 
 Curated index of repos worth bookmarking — DFIR, detection, threat intel, malware analysis, and the tools I actually keep coming back to.
 
-**101 repos** across 13 categories.
-
 ---
 
 ## Contents
