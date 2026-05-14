@@ -6,19 +6,19 @@ Curated index of repos worth bookmarking — DFIR, detection, threat intel, malw
 
 ## Contents
 
-- [🔍 DFIR / IR](#-dfir-ir) — 12
-- [🛡️ Blue Team / Detection](#-blue-team-detection) — 16
-- [🦠 Malware Analysis & RE](#-malware-analysis-re) — 12
-- [🍎 macOS Security & Forensics](#-macos-security-forensics) — 9
-- [🪟 Windows DFIR](#-windows-dfir) — 4
-- [🔓 Red Team / Offensive](#-red-team-offensive) — 5
-- [🌐 Threat Intel & OSINT](#-threat-intel-osint) — 3
-- [📚 Awesome Lists](#-awesome-lists) — 12
-- [📖 Learning & Career](#-learning-career) — 4
-- [🇰🇷 Korean Resources](#-korean-resources) — 1
-- [🤖 AI / LLM / Agentic](#-ai-llm-agentic) — 4
-- [🛠️ DevTools](#-devtools) — 4
-- [📦 Misc](#-misc) — 15
+- [🔍 DFIR / IR](#-dfir-ir)
+- [🛡️ Blue Team / Detection](#-blue-team-detection)
+- [🦠 Malware Analysis & RE](#-malware-analysis-re)
+- [🍎 macOS Security & Forensics](#-macos-security-forensics)
+- [🪟 Windows DFIR](#-windows-dfir)
+- [🔓 Red Team / Offensive](#-red-team-offensive)
+- [🌐 Threat Intel & OSINT](#-threat-intel-osint)
+- [📚 Awesome Lists](#-awesome-lists)
+- [📖 Learning & Career](#-learning-career)
+- [🇰🇷 Korean Resources](#-korean-resources)
+- [🤖 AI / LLM / Agentic](#-ai-llm-agentic)
+- [🛠️ DevTools](#-devtools)
+- [📦 Misc](#-misc)
 
 ---
 

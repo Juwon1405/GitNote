@@ -8,9 +8,8 @@
 
 ---
 
-[![Last Updated](https://img.shields.io/badge/Last_updated-2026--05--01-blue?style=flat-square)](https://github.com/Juwon1405/GitNote)
-[![Resources](https://img.shields.io/badge/IR_frameworks-66_PDFs-red?style=flat-square)]()
-[![Stars Curated](https://img.shields.io/badge/Curated_stars-204-yellow?style=flat-square)](Resources/awesome-stars.md)
+[![Last Updated](https://img.shields.io/badge/Last_updated-2026--05-blue?style=flat-square)](https://github.com/Juwon1405/GitNote)
+[![Resources](https://img.shields.io/badge/IR_frameworks-PDFs-red?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-CC_BY_4.0-green?style=flat-square)]()
 
 </div>
@@ -23,10 +22,10 @@ GitNote is the index I wish existed when I started in DFIR — a **single, opini
 
 It is **not** an "awesome list" of everything in security. It is a **curated, used-in-practice subset** of:
 
-- 🔍 **Incident response frameworks** — 66 IR/DFIR doctrine PDFs from NIST, SANS, ENISA, KISA, Microsoft, AWS, and more
+- 🔍 **Incident response frameworks** — a curated set of IR/DFIR doctrine PDFs from NIST, SANS, ENISA, KISA, Microsoft, AWS, and more
 - 📚 **Resources** — practical guides on phishing analysis, blue team notes, red team tools, mindmaps for tcpdump / Burp / Windows privileges
 - 💻 **Code snippets** — working scripts for reverse engineering, macOS setup, network checks
-- ⭐ **Curated stars** — [204 GitHub repos categorized into 12 buckets](Resources/awesome-stars.md) (DFIR / Blue Team / AI / Red Team / Malware / OSINT / etc.)
+- ⭐ **Curated stars** — [GitHub repos grouped by domain](Resources/awesome-stars.md) (DFIR / Blue Team / AI / Red Team / Malware / OSINT / etc.)
 
 ---
 
@@ -48,7 +47,7 @@ GitNote/
 │       └── …16 organizations total
 │
 ├── 📂 Resources/             ← Working guides + curated indexes
-│   ├── awesome-stars.md       ⭐ 204 GitHub stars categorized (DFIR/Blue/AI/Red/etc.)
+│   ├── awesome-stars.md       ⭐ GitHub stars categorized (DFIR/Blue/AI/Red/etc.)
 │   ├── [Guide] blue-team-notes.md
 │   ├── [Guide] blue-team-notes_examples-of-lateral-movement.md
 │   ├── [Guide] markdown-korean.md
@@ -116,20 +115,20 @@ GitNote/
 
 ## ⭐ Curated stars — by category
 
-> [**`Resources/awesome-stars.md`**](Resources/awesome-stars.md) — 204 starred GitHub repos, auto-classified into 12 categories with manual review.
+> [**`Resources/awesome-stars.md`**](Resources/awesome-stars.md) — starred GitHub repos grouped into the categories below. The list is curated and re-organized periodically; exact counts shift with each pass.
 
-| Category | Count |
-|---|---:|
-| 🔍 DFIR — Forensics & Incident Response | 38 |
-| 🤖 AI / LLM / Agentic | 30 |
-| 🛡️ Blue Team — SOC, Detection, Threat Hunting | 17 |
-| 🦠 Malware Analysis & Reverse Engineering | 15 |
-| 📚 Awesome Lists & Curated References | 14 |
-| 🌐 OSINT & Threat Intelligence | 14 |
-| 🔓 Red Team — Offensive / Pentesting | 13 |
-| 🛠️ DevTools & Productivity | 10 |
-| 📖 Learning & Career | 7 |
-| 🔗 macOS / iOS Security & Forensics | 6 |
+- 🔍 DFIR — Forensics & Incident Response
+- 🛡️ Blue Team — SOC, Detection, Threat Hunting
+- 🦠 Malware Analysis & Reverse Engineering
+- 🍎 macOS / iOS Security & Forensics
+- 🪟 Windows DFIR
+- 🔓 Red Team — Offensive / Pentesting
+- 🌐 OSINT & Threat Intelligence
+- 🤖 AI / LLM / Agentic
+- 📚 Awesome Lists & Curated References
+- 📖 Learning & Career
+- 🛠️ DevTools & Productivity
+- 🇰🇷 Korean Resources
 
 ---
 
@@ -137,10 +136,11 @@ GitNote/
 
 | Project | What it is |
 |---|---|
-| **[agentic-dart](https://github.com/Juwon1405/agentic-dart)** ⭐ | Architecture-first autonomous DFIR agent — SANS FIND EVIL! 2026 submission. 35 typed MCP forensic functions, audit-chained reasoning loop, contradiction handler, 1135-line senior-analyst playbook. |
-| **[yushin-gendfir-rag](https://github.com/Juwon1405/yushin-gendfir-rag)** | Unofficial Python replication of *Loumachi, Ghanem & Ferrag — Generative DFIR with RAG* (2024). |
-| **[yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform)** | macOS DFIR forensics platform — Flask-based web tool. |
-| **[yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector)** | Single-file, zero-dependency macOS artifact collector. |
+| **[agentic-dart](https://github.com/Juwon1405/agentic-dart)** ⭐ | Architecture-first autonomous DFIR agent — SANS FIND EVIL! 2026 submission. 67 typed MCP forensic functions (incl. cross-platform supply-chain IOC sweeps), audit-chained reasoning loop, contradiction handler, 1182-line senior-analyst playbook. |
+| **[agentic-dart-collector-adapter](https://github.com/Juwon1405/agentic-dart-collector-adapter)** *(new — Phase 1.3)* | Stdlib-only Python adapter that turns Velociraptor offline-collector ZIPs into the `evidence_root` layout Agentic-DART consumes. Seeds chain-of-custody (manifest.json + SHA-256 index). |
+| **[yushin-mac-artifact-collector](https://github.com/Juwon1405/yushin-mac-artifact-collector)** *(archived)* | Single-file, zero-dependency macOS artifact collector. Originator of the supply-chain IOC sweep now ported into `agentic-dart` as cross-platform MCP functions. |
+| **[yushin-mac-forensics-platform](https://github.com/Juwon1405/yushin-mac-forensics-platform)** *(archived)* | macOS DFIR forensics platform — Flask-based web tool. Paused for post-SANS repositioning as the Agentic-DART web UI. |
+| **[yushin-gendfir-rag](https://github.com/Juwon1405/yushin-gendfir-rag)** *(archived)* | Unofficial Python replication of *Loumachi, Ghanem & Ferrag — Generative DFIR with RAG* (2024). Superseded by `agentic-dart`. |
 
 ---
 
