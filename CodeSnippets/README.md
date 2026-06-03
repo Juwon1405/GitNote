@@ -52,7 +52,8 @@ These are the working scripts for current incident response. Each pairs with a c
 
 | File | What it does |
 |---|---|
-| `setup-macos-full-20240204.sh` | Full macOS workstation setup (Homebrew + dev tools + DFIR tools) |
+| `setup-macos-full-20240204.sh` | Full macOS **GUI workstation** setup (Homebrew + apps + dev/DFIR tools, switches to fish) |
+| `setup-macos-headless-terminal-20260603.sh` | **Headless Mac mini (SSH)** zsh terminal glow-up — keeps default zsh, adds starship prompt, fish-style autosuggestions + syntax highlighting, eza/bat/fzf/zoxide/fd/rg/gh/jq/btop/tldr/delta, JetBrainsMono Nerd Font. Idempotent, no `chsh`. |
 | `network_checkip.py` | IP enrichment — geo, ASN, abuse score (stdlib only) |
 | `LunarToSolarEventCreator.py` | Lunar calendar dates → recurring solar `.ics` events |
 | `misc_live-gif-macker.py` | Capture screen region as animated GIF (macOS) |
