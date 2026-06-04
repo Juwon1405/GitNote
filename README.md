@@ -78,6 +78,7 @@ GitNote/
 |---|---|
 | Just got handed a Windows EVTX dump | [`[Cheatsheet] evtx-threat-hunting-2026.md`](Resources/%5BCheatsheet%5D%20evtx-threat-hunting-2026.md) — 12 EIDs that catch 80% of intrusions |
 | Suspect ransomware, what group? | [`[Playbook] ransomware-2026-actor-handbook.md`](Resources/%5BPlaybook%5D%20ransomware-2026-actor-handbook.md) — 9 active 2025-2026 RaaS profiles |
+| The Gentlemen RaaS — 심층 분석 (한글) | [`[Playbook] gentlemen-raas-deep-dive-ko.md`](Resources/%5BPlaybook%5D%20gentlemen-raas-deep-dive-ko.md) — 조직·도구·메신저·자금세탁·AI 행위분석 |
 | Live macOS host triage | [`[Cheatsheet] macos-unified-log-triage.md`](Resources/%5BCheatsheet%5D%20macos-unified-log-triage.md) + [`launchd_persistence_audit.sh`](CodeSnippets/launchd_persistence_audit.sh) |
 | Live Linux host triage | [`[Cheatsheet] linux-dfir-triage-2026.md`](Resources/%5BCheatsheet%5D%20linux-dfir-triage-2026.md) + [`auditd_lateral_movement.sh`](CodeSnippets/auditd_lateral_movement.sh) |
 | Memory dump just acquired | [`[Cheatsheet] memory-forensics-vol3.md`](Resources/%5BCheatsheet%5D%20memory-forensics-vol3.md) — Vol3 v2.27 top 12 plugins |

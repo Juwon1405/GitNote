@@ -29,7 +29,9 @@ Each profile follows a fixed structure: identification signals → initial acces
 
 **Defender pivot:** `wevtutil cl` execution = treat as **active ransomware deployment**, not noise. By the time these run, encryption is starting.
 
-**Reference:** [Check Point Research — DFIR Report: The Gentlemen & SystemBC](https://research.checkpoint.com/2026/dfir-report-the-gentlemen/)
+> 📖 **심층 분석 (한글):** 조직 구조 · 도구 체계 · 메신저(TOX) · 자금 세탁 · AI 활용까지 다룬 행위 중심 핸드북 → [`[Playbook] The Gentlemen RaaS — 심층 행위분석 핸드북`](%5BPlaybook%5D%20gentlemen-raas-deep-dive-ko.md)
+
+**Reference:** [Check Point Research — DFIR Report: The Gentlemen & SystemBC](https://research.checkpoint.com/2026/dfir-report-the-gentlemen/) · [Thus Spoke the Gentlemen (2026)](https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/)
 
 ---
 
